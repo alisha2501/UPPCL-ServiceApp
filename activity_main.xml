@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/buttonCapture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture Bill" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Result will show here..." />
+
+    <EditText
+        android:id="@+id/editTextUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter last 6 months' usage (comma-separated)"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonPredict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Predict Usage"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewPrediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Prediction will appear here" />
+</LinearLayout>
